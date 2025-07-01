@@ -429,19 +429,18 @@
 #else:
 #    print(f"{son1}={son2}")
 
-#mahsulot=['olma','gilos','sabzi','nok','anjir','shaftoli','tarvuz','qovun']
-#savat=[]
-#print("5 ta meva kiriting: ")
-#for n in range(5):
-#    savat.append(input(f"{n+1}-meva nomini kiriting: "))
+mahsulot=['olma','gilos','sabzi','nok','anjir','shaftoli','tarvuz','qovun']
+savat=[]
+print("5 ta meva kiriting: ")
+for n in range(5):
+    savat.append(input(f"{n+1}-meva nomini kiriting: "))
 
-#if savat:
-#    for meva in savat:
-#        if meva in mahsulot:
-#        else:
-#            print(f"Do'konimizda {meva} yo'q")
-#else:
-#    print("Savat bo'sh")
+if savat:
+    for meva in savat:
+        if meva in mahsulot:
+            print(f"Do'konimizda {meva} bor")
+else:
+    print("Savat bo'sh")
 
 #son=float(input("Juft son kiriting: "))
 #if son%2:
